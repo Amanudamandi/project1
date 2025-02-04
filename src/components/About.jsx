@@ -32,10 +32,10 @@ const About = () => {
                     <div className="w-1/2 text-2xl font-medium  flex flex-col justify-between p-6 h-full">
                         <div>
                             <h1 className="text-4xl md:text-4xl font-bold mb-2">
-                                <span className="font-normal">Welcome to</span><br />
-                                ASM Golden Vision Pvt. Ltd.
+                                <span className="font-bold">Welcome to</span><br />
+                               <span className='font-normal font-sans'> ASM Golden Vision Pvt. Ltd.</span>
                             </h1>
-                            <p className=" mt-4 font-light">
+                            <p className=" mt-4 font-extralight">
                                 We specialize in delivering comprehensive EPC solutions in Solar Power, Wind Energy, and Real Estate.
                                 With expertise in renewable energy and infrastructure development, we provide end-to-end services, ensuring efficient project execution and sustainable results.
                             </p>
@@ -47,12 +47,12 @@ const About = () => {
                             </p>
                         </div>
                         <div className="mt-8">
-                            <h3 className="text-xl font-bold mb-4">Our Services:</h3>
+                            <h3 className="text-2xl font-bold mb-4">Our Services:</h3>
                             <ul className="space-y-2">
                                 {services.map((service, index) => (
                                     <li key={index} className="flex items-center space-x-2">
                                         <span className="w-2 h-2 bg-white rounded-full"></span>
-                                        <span>{service}</span>
+                                        <span className='font-extralight'>{service}</span>
                                     </li>
                                 ))}
                             </ul>
