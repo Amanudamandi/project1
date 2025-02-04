@@ -79,9 +79,9 @@ const About = () => {
 
             {/* Who We Are Section */}
             <section className="bg-blue-900 text-white py-8 my-3 ">
-                <div className="container p-4 w-full">
-                    <div className="md:w-1/2 space-y-12">
-                        <div className=" w-screen text-xl ">
+                <div className="container pl-8 w-full text-wrap">
+                    <div className="space-y-12 ">
+                        <div className=" w-full text-xl  ">
                             <h2 className="text-3xl font-bold mb-6w-full mb-5">Who We Are?</h2>
                             <p className="text-gray-200 font-light ">
                                 <strong>ASM Golden Vision Private Limited</strong> specializes in delivering end-to-end EPC solutions in Solar Power. With
@@ -92,20 +92,20 @@ const About = () => {
 
                         <div className='w-full'>
                             <h2 className="text-3xl font-bold mb-6">Why Choose Us?</h2>
-                            <div className="space-y-4 w-screen text-xl ">
-                                <div className="p-4  rounded-lg">
+                            <div className="space-y-4 w-full text-xl pl-4 ">
+                                <div className=" rounded-lg">
                                     <h3 className="font-medium mb-2">Experienced and Certified Team:</h3>
                                     <p className="text-gray-200 font-extralight ">Our team of experts brings years of experience and holds industry certifications, ensuring your solar project is handled by skilled professionals. We stay updated with the latest technologies and regulations, delivering efficient and compliant solutions. </p>
                                 </div>
-                                <div className="p-4 rounded-lg">
+                                <div className=" rounded-lg">
                                     <h3 className="font-medium mb-2 ">Comprehensive Project Management:</h3>
                                     <p className="text-gray-200 font-extralight">We manage every aspect of your solar project, from consultation to maintenance. Our end-to-end project management ensures timely delivery, budget adherence, and a smooth, hassle-free experience, allowing you to focus on enjoying the benefits of solar energy.</p>
                                 </div>
-                                <div className="p-4 rounded-lg">
+                                <div className=" rounded-lg">
                                     <h3 className="font-medium mb-2">High-Quality Solar Products:</h3>
                                     <p className="text-gray-200 font-extralight">We use top-tier solar products from trusted manufacturers, including solar panels by Gautam Solar, which are certified as per UL and IEC standards. This ensures durability, efficiency, and minimal maintenance, providing you with long-lasting and effective solar solutions.</p>
                                 </div>
-                                <div className="p-4  rounded-lg">
+                                <div className="  rounded-lg">
                                     <h3 className="font-medium mb-2">Commitment to Sustainability:</h3>
                                     <p className="text-gray-200 font-extralight">Sustainability is at the heart of our mission. We help you reduce your carbon footprint with eco-friendly solar solutions while implementing green practices in our operations. By choosing us, you’re contributing to a cleaner, more sustainable future.</p>
                                     <br />
