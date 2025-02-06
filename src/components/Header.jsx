@@ -18,7 +18,7 @@ const Header = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center md:justify-between py-4 px-4 relative">
         {/* Left Section: Logo */}
         <div className="flex-shrink-0">
-          <img src={logo} alt="Company Logo" className="w-18 h-18 md:w-18 md:h-16 object-contain" />
+          <img src={logo} alt="Company Logo" className="w-30 h-30 md:w-18 md:h-16 object-contain" />
         </div>
 
         {/* Center Section: Heading */}
@@ -28,7 +28,9 @@ const Header = () => {
 
         {/* Right Section: Badge */}
         <div className="flex-shrink-0">
-          <img src={badge} alt="Certified Badge" className="w-20 h-20 md:w-20 md:h-20 object-contain" />
+          {/* <img src={badge} alt="Certified Badge" className="w-35 h-35 md:w-20 md:h-20 object-contain" /> */}
+          <img src={badge} alt="Certified Badge" className="w-[150px] h-[150px] object-contain" />
+
         </div>
 
         {/* Toggler Button (Visible on Small Devices) */}

@@ -168,7 +168,7 @@ body {
 #child1 {
     position: absolute;
     top: 0px;
-    left: 75px;
+    left: 100px;
 }
 
 #child2 {
@@ -180,7 +180,7 @@ body {
 #child3 {
     position: absolute;
     top: 240px;
-    left: 75px;
+    left: 100px;
 }
 
 #child4 {
@@ -192,7 +192,7 @@ body {
 #child5{
     position: absolute;
     top: 480px;
-    left: 75px;
+    left: 100px;
 }
 
 /* MAKE RIGHT-DIV RESPONSIVE */
