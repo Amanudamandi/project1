@@ -35,9 +35,9 @@ const About = () => {
                                 <span className="font-light">Welcome to</span><br />
                                <span className='font-bold font-sans'> ASM Golden Vision Pvt. Ltd.</span>
                             </h1>
-                            <p className=" mt-4 font-e9999999999999999xtralight">
+                            <p className=" mt-4 font-extralight">
                                 We specialize in delivering comprehensive EPC solutions in Solar Power, Wind Energy, and Real Estate.
-                                With expertise in renewable energy 999999999999999and infrastructure development, we provide end-to-end services, ensuring efficient project execution and sustainable results.
+                                With expertise in renewable energy and infrastructure development, we provide end-to-end services, ensuring efficient project execution and sustainable results.
                             </p>
                         </div>
                         <div className="mt-8">
