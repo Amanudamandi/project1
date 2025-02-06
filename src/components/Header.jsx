@@ -43,26 +43,26 @@ const Header = () => {
       </div>
 
       {/* Navigation Bar */}
-       <nav 
-  className={` flex bg-white text-black ${isMenuOpen ? 'block' : 'hidden'} md:flex gap-x-4 md:gap-8 py-2 text-sm md:text-base font-medium`}
->
-  <ul className="flex w-full flex-col md:flex-row justify-evenly items-start gap-y-2 md:gap-y-5 ">
-    <li className="hover:text-blue-500 cursor-pointer px-4">
+      <nav
+        className={` flex bg-white text-black ${isMenuOpen ? 'block' : 'hidden'} md:flex gap-x-4 md:gap-8 py-2 text-sm md:text-base font-medium`}
+      >
+        <ul className="flex w-full flex-col md:flex-row justify-evenly items-start gap-y-2 md:gap-y-5 ">
+          <li className="hover:text-blue-500 cursor-pointer px-4">
 
-      <a href="#">Home</a>
-    </li>
-    <li className="hover:text-blue-500 cursor-pointer px-4">
-      <a href="#about">About Us</a>
-    </li>
-   
-    <li className="hover:text-blue-500 cursor-pointer px-4">
-      <a href="#services">Enquiry</a>
-    </li>
-    <li className="hover:text-blue-500 cursor-pointer px-4">
-      <a href="#contact">Contact Us</a>
-    </li>
-  </ul>
-</nav> 
+            <a href="#">Home</a>
+          </li>
+          <li className="hover:text-blue-500 cursor-pointer px-4">
+            <a href="#about">About Us</a>
+          </li>
+
+          <li className="hover:text-blue-500 cursor-pointer px-4">
+            <a href="#services">Enquiry</a>
+          </li>
+          <li className="hover:text-blue-500 cursor-pointer px-4">
+            <a href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
 
     </header>
   );

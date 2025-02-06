@@ -33,7 +33,7 @@ const About = () => {
                         <div>
                             <h1 className=" text-3xl md:text-4xl font-bold mb-2">
                                 <span className="font-light">Welcome to</span><br />
-                               <span className='font-bold font-sans'> ASM Golden Vision Pvt. Ltd.</span>
+                                <span className='font-bold font-sans'> ASM Golden Vision Pvt. Ltd.</span>
                             </h1>
                             <p className=" mt-4 font-extralight">
                                 We specialize in delivering comprehensive EPC solutions in Solar Power, Wind Energy, and Real Estate.
@@ -72,16 +72,16 @@ const About = () => {
                         ))}
                     </div> */}
 
-<div id="right-div" className="w-full md:w-1/2 flex flex-wrap gap-2 justify-center items-center min-h-full">
-    {images.map((image) => (
-        <div key={image.id}  
-            className="h-[130px] w-full sm:w-[200px] md:w-[230px] flex items-center justify-center" 
-            id={`child${image.id}`}
-        >
-            <img src={image.src} alt={image.alt} className="h-full w-full object-cover rounded-sm" />
-        </div>
-    ))}
-</div>
+                    <div id="right-div" className="w-full md:w-1/2 flex flex-wrap gap-2 justify-center items-center min-h-full">
+                        {images.map((image) => (
+                            <div key={image.id}
+                                className="h-[130px] w-full sm:w-[200px] md:w-[230px] flex items-center justify-center"
+                                id={`child${image.id}`}
+                            >
+                                <img src={image.src} alt={image.alt} className="h-full w-full object-cover rounded-sm" />
+                            </div>
+                        ))}
+                    </div>
 
 
 

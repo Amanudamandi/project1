@@ -4,16 +4,16 @@ import About from '../components/About'
 import Features from '../components/Features'
 import ProjectHighlights from '../components/Project'
 import ServicesSection from '../components/Service'
- 
+
 
 const Main = () => {
   return (
     <main>
-    <HeroSection />
-    <About/>
-    <Features/>
-    <ProjectHighlights/>
-    <ServicesSection/>
+      <HeroSection />
+      <About />
+      <Features />
+      <ProjectHighlights />
+      <ServicesSection />
     </main>
   )
 }

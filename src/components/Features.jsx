@@ -106,41 +106,41 @@ const Features = () => {
 
         // </div>
 
-        
-       <div className="features-sec">
-    <div className="image-container">
-        <img src={featuretop} alt="" className="" />
-    </div>
-    
-    <div 
-        className="relative feature-content h-screen bg-cover bg-center flex flex-col items-center justify-center p-6 sm:p-8"
-        style={{ backgroundImage: `url(${bgImg})` }}
-    >
-        {/* Overlay for better visibility */}
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
-        {/* Content Wrapper */}
-        <div className="heading relative z-10 text-center text-white">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                Why us & Why Gautam Solar?
-            </h1>
+        <div className="features-sec">
+            <div className="image-container">
+                <img src={featuretop} alt="" className="" />
+            </div>
 
-            {/* Feature Boxes with Optimized Bottom Margin */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mb-4 sm:mb-8 md:mb-12">
-                {fetcures.map((feature, index) => (
-                    <div 
-                        key={index} 
-                        className="mainbox bg-white bg-opacity-90 text-black rounded-2xl p-4 sm:p-6 w-full sm:w-64 h-auto min-h-[100px] md:h-32 flex items-center justify-center shadow-lg"
-                    >
-                        <div className="description text-sm sm:text-lg font-semibold text-center">
-                            {feature.description}
-                        </div>
+            <div
+                className="relative feature-content h-screen bg-cover bg-center flex flex-col items-center justify-center p-6 sm:p-8"
+                style={{ backgroundImage: `url(${bgImg})` }}
+            >
+                {/* Overlay for better visibility */}
+                <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+
+                {/* Content Wrapper */}
+                <div className="heading relative z-10 text-center text-white">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                        Why us & Why Gautam Solar?
+                    </h1>
+
+                    {/* Feature Boxes with Optimized Bottom Margin */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mb-4 sm:mb-8 md:mb-12">
+                        {fetcures.map((feature, index) => (
+                            <div
+                                key={index}
+                                className="mainbox bg-white bg-opacity-90 text-black rounded-2xl p-4 sm:p-6 w-full sm:w-64 h-auto min-h-[100px] md:h-32 flex items-center justify-center shadow-lg"
+                            >
+                                <div className="description text-sm sm:text-lg font-semibold text-center">
+                                    {feature.description}
+                                </div>
+                            </div>
+                        ))}
                     </div>
-                ))}
+                </div>
             </div>
         </div>
-    </div>
-</div>
 
 
 
