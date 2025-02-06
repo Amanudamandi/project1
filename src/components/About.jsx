@@ -29,9 +29,9 @@ const About = () => {
                 <div className=" container mx-auto flex flex-col md:flex-row items-stretch gap-8 h-full">
 
                     {/* Left Content Section */}
-                    <div className=" w-1/2 text-2xl font-medium  flex flex-col justify-between p-6 h-full">
+                    <div className=" w-full md:w-1/2 text-2xl font-medium  flex flex-col justify-between p-6 h-full">
                         <div>
-                            <h1 className=" text-4xl md:text-4xl font-bold mb-2">
+                            <h1 className=" text-3xl md:text-4xl font-bold mb-2">
                                 <span className="font-light">Welcome to</span><br />
                                <span className='font-bold font-sans'> ASM Golden Vision Pvt. Ltd.</span>
                             </h1>
@@ -41,7 +41,7 @@ const About = () => {
                             </p>
                         </div>
                         <div className="mt-8">
-                            <p className="mb-4 font-light">
+                            <p className="mt-2 md:mt-4 font-extralight">
                                 Our commitment to quality is strengthened by our partnership with
                                 <span className="font-bold"> Gautam Solar</span>, using their UL and IEC certified solar panels.
                             </p>
@@ -61,7 +61,7 @@ const About = () => {
 
                     {/* Right Image Section */}
                     {/* Right Image Section */}
-                    <div id="right-div" className="w-1/2 flex flex-wrap gap-2 items-center min-h-full">
+                    {/* <div id="right-div" className="w-1/2 flex flex-wrap gap-2 items-center min-h-full">
                         {images.map((image) => (
                           
                             <div key={image.id}  className="h-[150px] w-100px  flex items-center justify-center" 
@@ -70,7 +70,19 @@ const About = () => {
                                 <img src={image.src} alt={image.alt} className="h-full w-full object-cover rounded-sm" />
                             </div>
                         ))}
-                    </div>
+                    </div> */}
+
+<div id="right-div" className="w-full md:w-1/2 flex flex-wrap gap-2 justify-center items-center min-h-full">
+    {images.map((image) => (
+        <div key={image.id}  
+            className="h-[130px] w-full sm:w-[200px] md:w-[230px] flex items-center justify-center" 
+            id={`child${image.id}`}
+        >
+            <img src={image.src} alt={image.alt} className="h-full w-full object-cover rounded-sm" />
+        </div>
+    ))}
+</div>
+
 
 
                 </div>
