@@ -32,12 +32,12 @@ const About = () => {
                     <div className="w-1/2 text-2xl font-medium  flex flex-col justify-between p-6 h-full">
                         <div>
                             <h1 className="text-4xl md:text-4xl font-bold mb-2">
-                                <span className="font-bold">Welcome to</span><br />
-                               <span className='font-normal font-sans'> ASM Golden Vision Pvt. Ltd.</span>
+                                <span className="font-light">Welcome to</span><br />
+                               <span className='font-bold font-sans'> ASM Golden Vision Pvt. Ltd.</span>
                             </h1>
-                            <p className=" mt-4 font-extralight">
+                            <p className=" mt-4 font-e9999999999999999xtralight">
                                 We specialize in delivering comprehensive EPC solutions in Solar Power, Wind Energy, and Real Estate.
-                                With expertise in renewable energy and infrastructure development, we provide end-to-end services, ensuring efficient project execution and sustainable results.
+                                With expertise in renewable energy 999999999999999and infrastructure development, we provide end-to-end services, ensuring efficient project execution and sustainable results.
                             </p>
                         </div>
                         <div className="mt-8">
