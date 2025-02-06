@@ -9,6 +9,7 @@ import { AiOutlineCheckCircle } from 'react-icons/ai';
 import featurebot from '../assets/Group 591 (2).png'
 // import featurebot from '../assets/feature-bottom.png'
 import featuretop from '../assets/Group 633 (1).png'
+import "../App.css"
 
 // feature imgs---
 import f1 from '../assets/fatures/f1.png'
@@ -76,9 +77,8 @@ const feautersImgs = [
 const Features = () => {
     return (
         <div className=' features-sec '>
-            <div className=' h-[80vh] w-full  overflow-hidden'>
-
-                <img src={featuretop} alt="" className=' h-full w-full' />
+            <div className='image-container'>
+                <img src={featuretop} alt="" className=' ' />
             </div>
 
 

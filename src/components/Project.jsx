@@ -16,7 +16,7 @@ const projectData = [
   { imgSrc: projectImg6, title: '2 MW Project in Punjab' },
 ];
 
-const ProjectHighlights = () => {
+const   ProjectHighlights = () => {
   return (
     <div id="services" className="bg-blue-900 mt-5 py-16 px-4" >
        
