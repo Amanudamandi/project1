@@ -29,9 +29,9 @@ const About = () => {
                 <div className=" container mx-auto flex flex-col md:flex-row items-stretch gap-8 h-full">
 
                     {/* Left Content Section */}
-                    <div className="w-1/2 text-2xl font-medium  flex flex-col justify-between p-6 h-full">
+                    <div className=" w-1/2 text-2xl font-medium  flex flex-col justify-between p-6 h-full">
                         <div>
-                            <h1 className="text-4xl md:text-4xl font-bold mb-2">
+                            <h1 className=" text-4xl md:text-4xl font-bold mb-2">
                                 <span className="font-light">Welcome to</span><br />
                                <span className='font-bold font-sans'> ASM Golden Vision Pvt. Ltd.</span>
                             </h1>

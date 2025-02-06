@@ -80,16 +80,13 @@ const Features = () => {
             <div className='image-container'>
                 <img src={featuretop} alt="" className=' ' />
             </div>
-
-
-
             <div className="relative feature-content h-screen bg-cover bg-center flex flex-col items-center justify-center p-8" style={{ backgroundImage: `url(${bgImg})` }}>
 
                 {/* Overlay for better visibility */}
                 <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
                 {/* Content Wrapper */}
-                <div className="relative z-10 text-center text-white">
+                <div className="heading relative z-10 text-center text-white">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
                         Why us & Why Gautam Solar?
                     </h1>
@@ -97,8 +94,8 @@ const Features = () => {
                     {/* Feature Boxes */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                         {fetcures.map((feature, index) => (
-                            <div key={index} className="bg-white bg-opacity-90 text-black rounded-2xl p-6 w-64 h-32 flex items-center justify-center shadow-lg">
-                                <div className="text-lg font-semibold text-center">
+                            <div key={index} className="mainbox bg-white bg-opacity-90 text-black rounded-2xl p-6 w-64 h-32 flex items-center justify-center shadow-lg">
+                                <div className="description text-lg font-semibold text-center">
                                     {feature.description}
                                 </div>
                             </div>
